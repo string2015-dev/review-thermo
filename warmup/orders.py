@@ -21,3 +21,10 @@ def get_page(orders, page, size=10):
     return orders[start:end]
 
 # © 2026 김연지. All rights reserved. 수강생 개인 학습용 · 무단 강의·복제·배포·수정 금지 (LICENSE.md)
+
+print(average_amount([122,123,23455,23456]))
+
+print(add_tag({"order":"주문1번","tags":""},"현대아파트1동1호"))
+
+print(get_page("주문입니다.주문주문주문줌누ㅜㅁㄴ울ㅛㅓㅗ효ㅓㅗ허ㅗ효ㅓ호문ㄹ",3)) #????
+

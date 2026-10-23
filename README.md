@@ -67,7 +67,7 @@ Windows PowerShell:
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 python -m venv .venv
-.venv\Scripts\Activate.ps1
+.venv\Scripts\activate.bat
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
